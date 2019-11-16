@@ -36,8 +36,14 @@ body{
     padding-top: 0.5em;
 }
 
-.items-menu article{
+.items-menu article, .items-menu a {
     padding: 1.2em;
+}
+
+.items-menu a{
+    padding-bottom: 0.6em;
+    color: lawngreen;
+    text-decoration: none;
 }
 
 @media (min-width:576px){
