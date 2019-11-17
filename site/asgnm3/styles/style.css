@@ -32,6 +32,22 @@ body{
     border: 0;
 }
 
+#nav-menu-btn, #nav-menu ul li>a{
+    transition: all ease-out 0.5s;
+}
+
+#nav-menu-btn:hover{
+    transform: rotateY('360');
+    background-color: rgb(238, 47, 14);
+}
+
+#nav-menu ul li>a:hover, #nav-menu ul li>a:active{
+    margin: auto 8em;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+}
+
 .items-menu h3{
     padding-top: 0.5em;
 }
