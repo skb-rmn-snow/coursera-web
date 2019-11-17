@@ -33,11 +33,11 @@ body{
 }
 
 #nav-menu-btn, #nav-menu ul li>a{
-    transition: all ease-out 0.5s;
+    transition: all ease-out 0.2s;
 }
 
 #nav-menu-btn:hover{
-    transform: rotateY('360');
+    transform: rotateY(180deg);
     background-color: rgb(238, 47, 14);
 }
 
